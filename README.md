@@ -1,38 +1,13 @@
-# Welcome to Remix!
+# Remix Clap Stack
 
-- [Remix Docs](https://remix.run/docs)
+This is a minimal Remix stack to serve as a starting point for demos. Simple, just like clapping hands when singing birthday song. Learn more about [Remix Stacks](https://remix.run/stacks).
 
-## Development
-
-From your terminal:
-
-```sh
-npm run dev
+```
+npx create-remix@latest --template afrianska/clap-stack
 ```
 
-This starts your app in development mode, rebuilding assets on file changes.
+## What's in the stack
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+- Styling with [Tailwind](https://tailwindcss.com/)
+- Linting with [ESLint](https://eslint.org)
+- Static Types with [TypeScript](https://typescriptlang.org)
